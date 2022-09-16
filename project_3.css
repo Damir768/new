@@ -1,0 +1,128 @@
+
+.menu{
+    display: flex;
+    width: 1440px;
+    height: 100px;
+    background-color: chartreuse;
+    padding-top: 10px;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+li{
+    margin-left: 100px;
+}
+.logo{
+    margin-left: 260px;
+    margin-top: 10px;
+}
+.log{
+    width: 50px;
+    height: 50px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+.help{
+    text-align: center;
+    width: 100%;
+height: 752px;
+
+
+background: #000000;
+}
+.tel{
+    position: absolute;
+width: 136px;
+height: 118px;
+right: 300px;
+top: 200px;
+float: right;
+border-radius: 30px;
+background: url(800px-Telegram_Messenger.png);
+}
+p{
+    color: white;
+
+}
+.h{
+    color: white;
+}
+.l{
+    
+    width: 136px;
+height: 118px;
+
+border-radius: 30px;
+}
+script{
+    position: absolute;
+    top: 100px;
+    left: 300px;
+    
+}
+
+        .circle{
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+            border-radius: 50%;
+             position: relative;
+            left: 0px;
+            animation-name: aqua-circle;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-timing-function: linear;
+        }
+        @keyframes aqua-circle{
+            0%{
+                left: -100%;
+            }
+            
+        
+            100%{
+                left: 1400px;
+            }
+        }
+        .circle_2{
+            width: 100px;
+            height: 100px;
+            background-color: green;
+            border-radius: 50%;
+            position: relative;
+            right: 0px;
+            animation-name: green-circle;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-timing-function: linear;
+        }
+        @keyframes green-circle{
+            0%{
+                right: -100%;
+            }
+            
+        
+            100%{
+                right: 0px;
+            }
+        }
+        .content{
+            display: flex;
+        }
+        @media all and (max-width:550px){
+            ul{
+                flex-direction:column;
+            }
+        }
+        
+        @media all and (max-width:550px){
+            .menu{
+                height: 250px;
+            }
+        }
+    

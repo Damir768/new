@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <link rel="stylesheet"  href="project_1.css">
+    <link rel="stylesheet"  href="сatego.css">
+    <link rel="stylesheet"  href="сss.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <title>Сайт</title>
+    <style>
+        .top{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0 ,0.8 );
+    top: 0px;
+    left: 0px;
+
+    opacity: 0;
+    visibility: hidden;
+}
+.top:target{
+    opacity: 1;
+    visibility: visible;
+}
+.top-body{
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 10px;
+}
+.top-content{
+    background-color: violet;
+    color: #000;
+    max-width: 800px;
+    padding: 30px;
+    position: relative;
+}
+.top-title{
+    font-size: 40px;
+    margin: 0px 0px 1em 0px;
+}
+.top-close{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 20px;
+    color: #000;
+    text-decoration: none;
+}
+.a-btn{
+    font-size: 15px;
+    color: #fff;
+}
+
+        .bv{
+            width: 200px;
+            height: 200px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="menu">
+        <ul>
+            <li >
+                <a href="project1.html">
+                    Главная
+                </a>
+            </li>
+            <li >
+                <a href="project2.html">
+                   Магазин
+                </a>
+            </li>
+            <li >
+                <a href="project3.html">
+                    Контакты
+                </a>
+            </li>
+            <li >
+                <a href="projec4.html">
+                    Ваши покупки
+                </a>
+               
+            </li>
+        </ul>
+        <div class="logo">
+            <img src="1374128.png" width="50px" height="50px">
+        </div>
+    </div>
+    </header>
+    <div class="block">
+        <h1> Добро пожаловать</h1>
+    </div>
+    
+    <div class="categoree"> 
+
+        <div class="категория">
+            <img src="phone.jpg" class="img_cat">
+            <button type="button" class="btn btn-success">
+                <a href="#top" class="a-btn"> Смартфоны и гаджеты</a> </button>
+             </div>
+        <div class="категория">
+            
+            <img src="Бытовая техника.jpg" class="img_cat">
+            <button type="button" class="btn btn-success">
+            <a href="#tot" class="a-btn">Бытовая техника </a> </button>
+        </div>
+        <div class="категория">
+            
+            <img src="спорт.webp" class="img_cat">
+            <button type="button" class="btn btn-success">
+             <a href="#top" class="a-btn">Спорт </a> </button>
+        </div>
+        <div class="категория">
+            
+            <img src="Офис.jpg" class="img_cat">
+            <button type="button" class="btn btn-success">
+           <a href="#top" class="a-btn"> Офисная техника </a></button>
+        </div>
+    </div>
+    
+    
+    <div class="описание">
+        <div class="shape"> <img src="Офис.jpg" width="300px" height="300px"></div>
+        <p>Добро пожаловать на наш саайт!Наш сайт очень надёжный и безопасный.Потому что этот
+            сайт защищает от мошеников.В нашем магазине качество продуктов очень хорошее.
+            Для тех покупателей, кто ценит высокое качество товара и низкие цены, наш магазин предлагает большой выбор продукции от самых разных производителей. Здесь можно купить бытовую и компьютерную технику, товары для детей и посуду. Также на сайте представлены различные хозяйственные товары и даже обширная категория подарков и аксессуаров. Весь ассортимент поделен на группы, поэтому каждому покупателю будет очень легко найти именно то, что он хочет купить.
+ </p>
+    </div>
+
+  
+    
+    <div class="top" id="top">
+        <div class="top-body">
+            <div class="top-content">
+                <a href="#" class="top-close"> X</a>
+                <div class="ryv">
+                    <div class="slode">
+                        <div class="photo">
+                            <img class="bv" src="12.jpg">
+                            <div class="name">Смартфон</div>
+                        </div>
+                    </div>
+                
+            
+            
+                
+                    <div class="slode">
+                        <div class="photo">
+                            <img class="bv" src="123.jpg">
+                            <div class="name">Смартфон aplle</div>
+                        </div>
+                    </div>
+            
+                    <div class="slode">
+                        <div class="photo">
+                            <img class="bv" src="1234.jpg">
+                            <div class="name">Смартфон aplle</div>
+                        </div>
+                    </div>
+                        
+                        <div class="slode">
+                            <div class="photo">
+                                <img src="12.jpg">
+                                <div class="name">Смартфон huawei</div>
+                            </div>
+                        </div>
+                    
+            
+                    <div class="slode">
+                        <div class="photo">
+                            <img class="bv" src="123.jpg">
+                            <div class="name">Смартфон app</div>
+                        </div>
+                    </div>
+                    <div class="slode">
+                        <div class="photo">
+                            <img class="bv" src="1234.jpg">
+                            <div class="name">Смартфон top</div>
+                        </div>
+                    </div>
+                    <div class="slode">
+                        <div class="photo">
+                            <img class="bv" src="12.jpg">
+                            <div class="name">Смартфон samsung</div>
+                        </div>
+                    </div>
+                </div>
+    </div>
+
+    <div class="top" id="tot">
+        <div class="top-body">
+            <div class="top-content">
+                <a href="#" class="top-close"> X</a>
+                <div class="ryv">
+                    <div class="slode">
+                        <div class="photo">
+                            <img class="bv" src="12.jpg">
+                            <div class="name">Смартфон</div>
+                        </div>
+                    </div>
+                
+            
+            
+                
+                    <div class="slode">
+                        <div class="photo">
+                            <img class="bv" src="123.jpg">
+                            <div class="name">Смартфон aplle</div>
+                        </div>
+                    </div>
+            
+                    <div class="slode">
+                        <div class="photo">
+                            <img class="bv" src="1234.jpg">
+                            <div class="name">Смартфон aplle</div>
+                        </div>
+                    </div>
+                        
+                        <div class="slode">
+                            <div class="photo">
+                                <img src="12.jpg">
+                                <div class="name">Смартфон huawei</div>
+                            </div>
+                        </div>
+                    
+            
+                    <div class="slode">
+                        <div class="photo">
+                            <img class="bv" src="123.jpg">
+                            <div class="name">Смартфон app</div>
+                        </div>
+                    </div>
+                    <div class="slode">
+                        <div class="photo">
+                            <img class="bv" src="1234.jpg">
+                            <div class="name">Смартфон top</div>
+                        </div>
+                    </div>
+                    <div class="slode">
+                        <div class="photo">
+                            <img class="bv" src="12.jpg">
+                            <div class="name">Смартфон samsung</div>
+                        </div>
+                    </div>
+                </div>
+    </div>
+
+  
+
+
+   
+
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    
+    <script src="slick/slick.min.js"></script>
+    <script src="main.js"></script>
+    
+</body>
+</html>

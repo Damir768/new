@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="projec4.css">
+    
+    <title>Сай</title>
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <ul>
+                <li >
+                    <a href="project1.html">
+                        Главная
+                    </a>
+                </li>
+                <li >
+                    <a href="project2.html">
+                       Магазин
+                    </a>
+                </li>
+                <li >
+                    <a href="project3.html">
+                        Помощь
+                    </a>
+                </li>
+                <li >
+                    <a href="projec4.html">
+                        Ваши покупки
+                    </a>
+                   
+                </li>
+            </ul>
+            <div class="logo">
+                <img src="1374128.png" width="50px" height="50px">
+             </div>
+        </div>
+       
+    </header>
+    <p> Куплено</p>
+    <div> <img src="Безназвания.jpg"></div>
+    <form action="URL" class="form"><br>
+        Имя:</br>
+        <input type="text" name="name" value="First name" class="input1"><br>
+        Email adres</br>
+        <input type="text" name="Email" value="Email adres" class="input1"><br>
+        Категория:<br>
+        <div class="drop">
+        <input type="text" name="category" class="catiniput"><br>
+        <div class="option">
+        <div onmouseover="show('Смартфон и гаджеты')"> Смартфон и гаджеты</div>
+        <div onmouseover="show('Бытовая техника')"> Бытовая техника</div>
+        <div onmouseover="show('Спорт')"> Спорт</div>
+        <div onmouseover="show('Офисная техника')"> Офисная техника</div>
+    </div>
+</div> Код товара:</br>
+        <input type="text" name="code" value="код товара" class="input1"><br>
+          
+        <input type="submit" value="заказать" class="in">
+        
+    </form>
+
+   <script>
+    function show (a){
+        document.querySelector('.catiniput').value=a
+    }
+   let drop =document.querySelector('.drop')
+   drop.onclick = function(){
+     drop.classList.toggle('active');
+   }
+   </script>
+    
+</body>
+</html>

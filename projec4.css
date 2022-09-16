@@ -1,0 +1,97 @@
+
+.menu{
+    display: flex;
+    width: 1440px;
+    height: 100px;
+    background-color: chartreuse;
+    padding-top:10px ;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+li{
+    margin-left: 100px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+
+.logo{
+    margin-left: 260px;
+    margin-top: 10px;
+}
+.form{
+    padding-left: 200px;
+    text-align: center;
+    
+}
+.input1{
+    width: 170px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 10px  rgba( 0, 0, 0, 0.6);
+    margin-top: 10px;
+}
+.in{
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 30px;
+}
+.catiniput{
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 10px  rgba( 0, 0, 0, 0.6);
+    
+}
+.drop{
+    position: relative;
+}
+.drop::before{
+    content: "";
+    position: absolute;
+    top: 20px;
+    width: 12px;
+    height: 2px;
+    background: rgb(28, 28, 53);
+    left: 642px;
+    transform: rotate(40deg);
+}
+.drop.active::before{
+    left: 650px;
+}
+.drop.active::after{
+    left: 642px;
+}
+.drop::after{
+    content: "";
+    position: absolute;
+    top: 20px;
+    width: 12px;
+    height: 2px;
+    left: 650px;
+    background: rgb(28, 28, 53);
+    transform: rotate(-40deg);
+}
+.option{
+    position: absolute;
+    width:200px ;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.6);
+    margin-left: 460px;
+
+    opacity: 0;
+    overflow: hidden;
+}
+.drop.active .option{
+   opacity: 1;
+   visibility: visible;
+}
+.option div{
+    padding: 10px;
+}
+.option div:hover{
+    background-color: magenta;
+}
